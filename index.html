@@ -1,62 +1,46 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus objetivos do ano</title>
-    <link rel="stylesheet" href="style.css">
+<html lang="pt-BR">
+<head>"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial=scale=1.0">
+  <title>Portal de Matemática - 3º ano C</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <section class="conteudo-principal">
-        <h2 class="titulo-principal">Meus Objetivos do ano<span>_</span></h2>
-        <div class="conteudo">
-            <div class="botoes">
-              <button class="botao ativo">Cursos na Alura</button>
-              <button class="botao">Criar projetos em Javascript</button>
-              <button class="botao">Criar um portfolio</button>
-              <button class="botao">Atualizar meu currículo</button>
-            </div>
-            <div class="aba-conteudo ativo">
-                <h3 class="aba-conteudo-titulo-principal">Estudar 4 cursos na Alura</h3>
-                <h4 class="aba-conteudo-titulo-secundario">
-                  Tempo para completar o objetivo
-                </h4>
-                <div class="contador"></div>
-              </div>
-              <div class="aba-conteudo">
-                <h3 class="aba-conteudo-titulo-principal">Criar 5 projetos em Javascript</h3>
-                <h4 class="aba-conteudo-titulo-secundario">
-                  Tempo para completar o objetivo
-                </h4>
-                <div class="contador"></div>
-              </div>
-              <div class="aba-conteudo">
-                <h3 class="aba-conteudo-titulo-principal">
-                  Criar um portfolio com os meus 3 melhores projetos
-                </h3>
-                <h4 class="aba-conteudo-titulo-secundario">
-                  Tempo para completar o objetivo
-                </h4>
-                <div class="contador"></div>
-              </div>
-              <div class="aba-conteudo">
-                <h3 class="aba-conteudo-titulo-principal">
-                  Atualizar meu currículo com os certificados da Alura
-                </h3>
-                <h4 class="aba-conteudo-titulo-secundario">
-                  Tempo para completar o objetivo
-                </h4>
-                <div class="contador"></div>
-              </div>
-            </div>
-    </section>
+
+    <!-- 1. BANNER PRINCIPAL -->
+  <div class="banner">
+      <div class="banner-conteúdo">
+        <h1>Conectando Matemática e Tecnologia</h1>
+        <p>Espaço digital da Engenharia e Ciências da Natureza</p>
+        <!-- BOTÃO INTERATIVO QUE ABRE O POP UP-->
+         <a href="#popup-aviso" class="botao-banner">Ver Aviso Importante</a>
+      </div>
+  </div>
+
+    <!-- CORPO DO SITE (CONTAINER)-->
+  <div class="container">
+
+      <!-- 2. SÉRIE DE BOTÕES INTERATIVOS-->
+       <div class="grade-botoes">
+          <button class="botao-menuazul">Geometria</button>
+          <button class="botao-menuverde">Álgebra</button>
+          <button class="botao-menuroxo">Estátistica</button>
+       </div>
+
+       <hr>
+
+       <!-- 3.SISTEMA DE ABAS EM CSS(Para alternar conteúdos)-->
+        <H2>Conteúdos Disponíveis</H2>
+        <div class="abas-sistema">
+            <!-- Aba 1-->
+             <input type="radio" name="abas" id="aba1" checked>
+             <label for="aba1">Semestre 1</label>
+             <div class="aba-conteudo">
+                <h3>Análise Combinatória</h3>
+                  <p>Princípio fundamental da contagem, permutações e combinações aplicadas</p>
+                    </div>
+
+                    <!-- Aba 2-->
+  </div>
 </body>
-<script src="main.js"></script>
-
-
-
-</html>
-<!DOCTYPE html>
-<html lang="pt-br">
